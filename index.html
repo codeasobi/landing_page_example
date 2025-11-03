@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nordic Home｜北歐家居風 Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <div class="header__brand" data-i18n="brand">Nordic Home</div>
+            <nav class="header__nav">
+                <a href="#features" data-i18n="nav.features">探索風格</a>
+                <a href="#collections" data-i18n="nav.collections">精選空間</a>
+                <a href="#testimonials" data-i18n="nav.testimonials">心得見證</a>
+                <a href="#about" data-i18n="nav.about">關於我</a>
+                <a href="#contact" data-i18n="nav.contact">聯絡</a>
+            </nav>
+            <div class="header__lang">
+                <button class="lang-btn lang-btn--active" data-lang="zh-Hant">繁體中文</button>
+        <button class="lang-btn" data-lang="en">English</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero container" id="home">
+            <div class="hero__text">
+                <h1 id="title" data-i18n="hero.title">以北歐美學，營造溫暖而有秩序的家</h1>
+                <p class="description" id="description" data-i18n="hero.subtitle">
+                    留白、自然材質與柔和光感，形塑你理想的生活場景。
+                </p>
+                <button class="cta" id="cta-btn" data-i18n="hero.cta">免費諮詢與設計提案</button>
+            </div>
+            <div class="hero__media">
+                <img class="hero__image" src="https://plus.unsplash.com/premium_photo-1661963030433-0f43f4e01beb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop?q=80&w=1200&auto=format&fit=crop" alt="北歐風室內客廳，木質與白牆搭配柔光" loading="lazy" referrerpolicy="no-referrer" />
+            </div>
+        </section>
+
+        <section id="features" class="features container">
+            <h2 data-i18n="features.title">北歐風的三個關鍵價值</h2>
+            <div class="features__grid">
+                <article class="features__card">
+                    <h3 data-i18n="features.natural.title">自然材質</h3>
+                    <p data-i18n="features.natural.desc">選用木質、亞麻與中性色調，帶來放鬆與平衡。</p>
+                </article>
+                <article class="features__card">
+                    <h3 data-i18n="features.function.title">機能至上</h3>
+                    <p data-i18n="features.function.desc">簡潔線條與收納規劃，兼顧美感與日常實用。</p>
+                </article>
+                <article class="features__card">
+                    <h3 data-i18n="features.light.title">舒適光感</h3>
+                    <p data-i18n="features.light.desc">大量自然光與柔霧燈具，營造溫暖氛圍。</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="collections" class="collections container">
+            <h2 data-i18n="collections.title">生活情境精選</h2>
+            <div class="collections__grid">
+                <figure class="collections__card">
+                    <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?q=80&w=1600&auto=format&fit=crop" alt="北歐客廳：淺木色茶几與中性色沙發" loading="lazy" referrerpolicy="no-referrer" />
+                    <figcaption data-i18n="collections.living">客廳：留白與木質，安靜的談天角落</figcaption>
+                </figure>
+                <figure class="collections__card">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1600&auto=format&fit=crop" alt="北歐臥室：白牆與棉麻寢具" loading="lazy" referrerpolicy="no-referrer" />
+                    <figcaption data-i18n="collections.bedroom">臥室：棉麻觸感，深度睡眠的儀式</figcaption>
+                </figure>
+                <figure class="collections__card">
+                    <img src="https://images.unsplash.com/photo-1519710884009-38218e0d7de8?q=80&w=1600&auto=format&fit=crop" alt="北歐餐廳：木桌與簡約吊燈" loading="lazy" referrerpolicy="no-referrer" />
+                    <figcaption data-i18n="collections.dining">餐廳：簡約餐桌，讓日常更有溫度</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials container">
+            <h2 data-i18n="testimonials.title">使用者心得</h2>
+            <div class="testimonials__grid">
+                <blockquote class="testimonials__item">
+                    <p data-i18n="testimonials.1">設計師以極簡手法整理動線，我家小孩也更好收納了！</p>
+                    <cite>— May, Taipei</cite>
+                </blockquote>
+                <blockquote class="testimonials__item">
+                    <p data-i18n="testimonials.2">材質與光線真的有差，回家就像在北歐度假。</p>
+                    <cite>— Ken, Taichung</cite>
+                </blockquote>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <div class="about__inner">
+                <div class="about__text">
+                    <h2 data-i18n="about.title">關於我</h2>
+                    <p data-i18n="about.body">專注北歐風格空間策劃與視覺整合，將自然、機能與光線帶進每一個日常角落。</p>
+                </div>
+                <div class="about__media">
+                    <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="木質與白牆的工作檯面與花器" loading="lazy" referrerpolicy="no-referrer" />
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <h2 data-i18n="cta.title">需要設計建議嗎？</h2>
+            <p data-i18n="cta.desc">留下聯絡方式，3 個工作天內給你初步提案。</p>
+            <form class="contact__form" action="#" method="post" onsubmit="return false;">
+                <input type="text" name="name" placeholder="您的姓名" aria-label="name" />
+                <input type="email" name="email" placeholder="Email" aria-label="email" />
+                <button type="submit" class="cta" data-i18n="cta.submit">送出需求</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__inner">
+            <span>© <span id="year"></span> Nordic Home</span>
+            <a href="#home" class="footer__back-to-top" data-i18n="footer.backTop">回到頂部</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
